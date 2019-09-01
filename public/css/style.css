@@ -1,0 +1,141 @@
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+h2{
+    color: white;
+}
+
+
+i{
+	font-size:20px;
+    color: #2d462d;
+}
+.btn{
+	padding: 10px 25px;
+    background-color: #1ea7d8;
+    border: 0px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-size: .95rem;
+    color: white;
+    box-shadow: 5px 5px .4px grey;
+}
+/*
+button{
+    box-shadow: 5px 5px 1px grey;
+}*/
+/* -- Header Part -- */
+header{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 100%;
+    position: fixed;
+    background-color: #14151575;
+    overflow: hidden;
+	z-index:99;
+}
+/* === Registration form bar === */
+
+/* -- About me part  -- */
+
+/*-- Navbar part --*/
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+/* Search bar */
+#myInput {    
+	background-image: url(images/search.png);
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 300px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin: 34px;
+    float: right;
+}
+/*navbar drop-down*/
+
+#drop {
+	left: 98%;
+    margin-left: -143px;
+    top: 58px;
+    position: absolute;
+}
+.dropdown {    
+	background: #fff;
+    border-radius: 32px;
+    width: 196px;
+    padding: 0px;    
+}
+.dropdown-menu>li>a {
+    color:#428bca;
+}
+.dropdown ul.dropdown-menu {
+    border-radius: 15px;
+    box-shadow: none;
+    margin-top: 0px;
+    left: 28%;
+    padding: 12px;
+    border: 1px solid #ad5656;
+    width: 191px;
+    height: 76px;
+}
+.dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 15px solid #fff;
+    border-right: 11px solid transparent;
+    border-left: 11px solid transparent;
+    position: absolute;
+    top: -13px;
+    right: 61px;
+    z-index: 10;
+}
+}
+.dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 27px;
+    z-index: 9;
+}
+h1{
+	color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    float: left;
+}
+/*Search box*/
+
+.input-group.md-form.form-sm.form-1 input{
+border: 1px solid #bdbdbd;
+border-top-right-radius: 0.25rem;
+border-bottom-right-radius: 0.25rem;
+padding-left: 10px;
+}
+.input-group-text.lighten-3 span{
+    background-color: #8296ab;
+}

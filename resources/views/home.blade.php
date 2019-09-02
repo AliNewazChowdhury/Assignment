@@ -26,7 +26,7 @@ $role=Auth::user()->role;
         
         @auth
         @if(session()->has('success'))
-            <div class="col alert alert-warning alert-dismissible fade show" role="alert">
+            <div class="col-md-12 col-sm-10 col-xs-10 alert alert-warning alert-dismissible fade show" role="alert">
               <strong>{{session()->get('success')}}</strong> 
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
